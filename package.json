@@ -2,7 +2,7 @@
   "name": "get-date-ago",
   "version": "1.0.0",
   "description": "It is a function to get dates ago such as (25 days ago) Or (2 months ago) Or (3 Years Ago) With multiple language.",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

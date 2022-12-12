@@ -19,4 +19,4 @@ export function getDate(date: Date, lang: string = "en-us"): string {
   );
 }
 
-console.log(getDate(new Date("2006-01-31")));
+console.log(getDate(new Date("2022-01-31")));
