@@ -17,5 +17,4 @@ function getDate(date, lang = "en-us") {
             : days), `${days > 30 && days < 365 ? "months" : days > 365 ? "years" : "days"}`);
 }
 exports.getDate = getDate;
-console.log(getDate(new Date("2022-01-31")));
 //# sourceMappingURL=index.js.map

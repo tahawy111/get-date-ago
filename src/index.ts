@@ -18,5 +18,3 @@ export function getDate(date: Date, lang: string = "en-us"): string {
     `${days > 30 && days < 365 ? "months" : days > 365 ? "years" : "days"}`
   );
 }
-
-console.log(getDate(new Date("2022-01-31")));
